@@ -13,6 +13,7 @@ This Project Features:
 ### Installation Requirements
 
 * [APACHE 2.4](https://httpd.apache.org/)
+* Clients have to have JavaScript Enabled for this to work, if you want it to work either way, consider using my [Error Pages with PHP](https://github.com/lucakiebel/sw-error-pages/)!
 
 ### Installation
 
@@ -24,12 +25,10 @@ Or install using the CLI:
 $ git clone https://github.com/lucakiebel/star-wars-error-js.git
 $ cd star-wars-error-js
 $ cp * /var/www/html/
-$ cd /var/www/html/
-$ # make sure you don't have any other ErrorDocument lines in your
-$ # .htaccess 
-$ cat htaccess.txt >> .htaccess
-$ rm htaccess.txt
+$ cd /var/www/html/error/
 ```
+
+
 
 ## Comming Versions
 
